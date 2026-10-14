@@ -1,0 +1,29 @@
+body {
+     font-family: "Source Sans 3", sans-serif;
+     background-color: #F5E0D8;
+     color: #382b32;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+    font-size: 40pt;
+}
+
+header {
+    text-align: center; 
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #DBC0A7;
+    padding: 10px;
+    border: 2px solid #8C7783;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
