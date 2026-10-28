@@ -1,29 +1,61 @@
 body {
-     font-family: "Source Sans 3", sans-serif;
-     background-color: #F5E0D8;
-     color: #382b32;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #f5e0d8;
+  color: #382b32;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Nunito", sans-serif;
-    font-size: 40pt;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 40pt;
 }
 
 header {
-    text-align: center; 
+  text-align: center;
 }
 
-#hero, footer {
-    text-align: center;
-    background-color: #DBC0A7;
-    padding: 10px;
-    border: 2px solid #8C7783;
+#hero,
+footer {
+  text-align: center;
+  background-color: #dbc0a7;
+  padding: 10px;
+  border: 2px solid #8c7783;
 }
 
 #hero img {
-    width: 300px;
+  width: 300px;
 }
 
 #bio {
-    text-align: center;
+  text-align: center;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 60em) {
+  figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  #lit {
+    max-width: 100%;
+    columns: 40rem;
+  }
 }
