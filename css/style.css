@@ -78,3 +78,10 @@ footer {
     display: block;
   }
 }
+
+#myVideo {
+  width: 100%;
+  max-width: 720px;
+  display: block;
+  margin: 50px auto;
+}
