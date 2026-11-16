@@ -60,9 +60,28 @@
         <h2>A video about how the divinity of cookies holds the fabric of civilization together:</h2>
         <iframe id="myVideo" height="480" src="https://www.youtube.com/embed/bXhiKHjSNX0?si=Hxsd1xr41iRnlLEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
+      <section id="contact">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c70d1f5f-e988-41cb-ae3d-c59cc93df55a" />
+          <input type="hidden" name="subject" value="New message from my About Me page" />
+          <input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fa26-about-me-sunakirin/thanks.html" />
+          <fieldset>
+            <legend>Contact Me</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <div data-class="h-captcha" data-captcha="true"></div>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
     </main>
     <footer>
       <p>&copy; 2026 Dereck Guardado</p>
     </footer>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
   </body>
 </html>
